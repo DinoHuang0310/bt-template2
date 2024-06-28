@@ -1,0 +1,163 @@
+{
+  "menu": [
+    {
+      "title": "後疫情時代",
+      "url": "#article1",
+      "isAnchor": true
+    },
+    {
+      "title": "提前布署",
+      "url": "#article2",
+      "isAnchor": true
+    },
+    {
+      "title": "變異株威脅",
+      "url": "#article3",
+      "isAnchor": true
+    },
+    {
+      "title": "公衛危機",
+      "url": "#article4",
+      "isAnchor": true
+    }
+  ],
+  "description": {
+    "className": "my-description",
+    "content": [
+      {
+        "type": "p",
+        "content": "新冠〈COVID-19〉在全球延燒三年多後，今年初國內疫情趨緩且處於低點，政府自5月1日起防疫降階，指揮中心同日解編，持續一千多天的記者會喊卡，越來越多面孔掀開口罩，民眾對疫情逐步卸下心防。"
+      },
+      {
+        "type": "p",
+        "content": "但沒想到2023年進入尾聲之際，中國呼吸道疫情再起，包括流感、黴漿菌、腺病毒、呼吸道融合病毒（RSV）、COVID-19等五大病原如群魔亂舞在多地爆發。國內流行病學專家與醫師示警，台灣未來恐再爆新疫情。在後疫情時代，已回歸常態化的台灣現行防疫體系及制度，能否擋住新一波疫情狂潮？對於後繼無人的感染科醫護量能問題，找到解方已刻不容緩。"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "後疫情時代，與病毒共存大作戰",
+      "image": "./images/article01.png",
+      "image_m": "./images/article01_m.png",
+      "url": "https://lihi.cc/6wvcV",
+      "background": "radial-gradient(circle at 20% 25%, rgb(0, 148, 132) 20%, rgb(0, 26, 63) 100%)",
+      "className": "my-article",
+      "content": [
+        {
+          "type": "p",
+          "content": "根據衛福部2022年十大死因統計，該年「COVID-19」的死亡人數為1萬4,667人，超過肺癌死亡人數（10,053人），且年齡層在65歲以上占了86%！疫情高峰期的挑戰已過，但威脅始終存在。"
+        },
+        {
+          "type": "p",
+          "content": "COVID-19病毒一直在變異！如今，取而代之的是Omicron，已演化出超過數百種以上的次分型變異株，這也讓民眾焦慮，到底之前施打的COVID-19疫苗（尚不包含莫德納XBB.1.5疫苗）是否還有效。"
+        },
+        {
+          "type": "chart",
+          "content": {
+            "tooltip": {
+              "trigger": "item",
+              "formatter": "{a} <br/>{b} : {c} ({d}%)"
+            },
+            "legend": {
+              "orient": "vertical",
+              "left": "left",
+              "data": ["Direct", "Email", "Search Engines"]
+            },
+            "series": [
+              {
+                "name": "Traffic Sources",
+                "type": "pie",
+                "radius": "55%",
+                "center": ["50%", "60%"],
+                "data": [
+                  { "value": 335, "name": "Direct" },
+                  { "value": 310, "name": "Email" },
+                  { "value": 1548, "name": "Search Engines" }
+                ],
+                "emphasis": {
+                  "itemStyle": {
+                    "shadowBlur": 10,
+                    "shadowOffsetX": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0.5)"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "content": "群體免疫（herd immunity）向來是放在疫苗的脈絡思維裡，何謂群體免疫？衛生福利部傳染病防治醫療網北區指揮官、台灣疫苗推動協會理事長黃玉成說，以「COVID-19」為例，若100人裡有90人曾感染或接種過疫苗，就算有第91人罹患COVID-19，剩下的9人被感染的機率會相對低許多。"
+        }
+      ]
+    },
+    {
+      "title": "提前布署感染管制，無懼百年大疫威脅",
+      "image": "./images/article02.png",
+      "url": "https://lihi.cc/REmaa",
+      "background": "#009484",
+      "content": [
+        {
+          "type": "img",
+          "content": "./images/article02-1.png"
+        },
+        {
+          "type": "p",
+          "content": "COVID-19在過去三年多來讓全球人仰馬翻，重創經濟，也暴露出感染管制上的潛在風險，COVID-19新冠疫情不僅帶來重症、死亡威脅，許多人在確診痊癒後仍因長新冠困擾。面對不斷變種與潛伏的疫情，全民唯有攜手落實「感染管制」，才能降低、甚至阻絕疫情衝擊。"
+        },
+        {
+          "type": "p",
+          "content": "「這也是台灣，在21世紀面對的第一個新興傳染病的血淚史，為此，衛福部、疾病管制署更瞭解到醫院感染管制的重要。」台灣感染管制學會理事長、台大醫院內科部感染科主任陳宜君說，在SARS過後，疾管署要求醫院每年進行新興傳染病防治準備及演練，逐步奠基台灣的醫院感管制度、成果領先許多國家。"
+        },
+        {
+          "type": "youtube",
+          "content": "9Qne3PRs2OY"
+        }
+      ]
+    },
+    {
+      "title": "新冠變異株威脅未遠離，如何降重症、死亡率？",
+      "image": "./images/article03.png",
+      "url": "https://lihi.cc/NrQA2",
+      "content": [
+        {
+          "type": "img",
+          "content": "./images/article03-1.png"
+        },
+        {
+          "type": "p",
+          "content": "感染 COVID-19若能在發病後的五天內，及早服用Paxlovid、Molnupiravir之抗病毒藥物，可降低26%的長新冠機率，且能有效降低重症風險因子演變成重症、死亡的機率。"
+        },
+        {
+          "type": "p",
+          "content": "許多人會問，疫情不是結束了嗎？為何還要這麼提防小心？三軍總醫院感染科特聘主治醫師、醫策會醫院感染管制查核基準召集人張峰義直指：「後疫情時代，變異株、次變異株普遍存在，事實上，COVID-19並非遠離我們！」"
+        }
+      ]
+    },
+    {
+      "title": "抗生素抗藥性奪百萬人命 WHO示警公衛危機",
+      "image": "./images/article04.png",
+      "url": "https://lihi.cc/mF1Ij",
+      "content": [
+        {
+          "type": "img",
+          "content": "./images/article04-1.png"
+        },
+        {
+          "type": "p",
+          "content": "台灣經歷三年疫情，成功守護國人健康及經濟表現。然而面對全球抗生素抗藥性危機，國內感染管制卻面臨「缺兵、缺武器」等困境，醫界示警，若不改善恐難因應下波大型感染疾病。"
+        },
+        {
+          "type": "p",
+          "content": "各國挺過三年新冠肺炎疫情，但疫後一場隱形的「抗生素抗藥性」危機，正在全球快速升溫。缺人才、缺新藥的台灣，該如何接招？"
+        }
+      ]
+    }
+  ],
+  "readmoreImg": "./images/btn.svg",
+  "copyright": [
+    { "type": "p", "content": "內容監製: 今周刊" },
+    { "type": "p", "content": "專題製作: 今周刊 數位內容部" },
+    { "type": "p", "content": "Copyright © 2024 今周刊.All rights reserved. 版權所有，禁止擅自轉貼節錄" }
+  ]
+}
