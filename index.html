@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <meta name="keywords" content="<%- meta.keywords %>" />
+    <meta name="description" content="<%- meta.description %>" />
+    <meta name="author" content="今周刊" />
+    <meta name="copyright" content="<%- meta.copyright %>" />
+    <meta name="url" content="<%- meta.url %>" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<%- meta.title %>" />
+    <meta property="og:description" content="<%- meta.description %>" />
+    <meta property="og:image" content="<%- meta.url %>images/ogimage.png" />
+    <meta property="og:url" content="<%- meta.url %>" />
+
+    <link rel="icon" href="/favicon.ico">
+
+    <title><%- meta.title %></title>
+    <%- injectScript %>
+    
+  </head>
+  <body>
+    <%- injectHtml %>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
